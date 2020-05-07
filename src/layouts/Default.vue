@@ -1,7 +1,9 @@
 <template>
 <div class="layout">
   <Header></Header>
-  <Hero v-show="showHero"></Hero>
+  <div v-show="showHero">
+    <Hero></Hero>
+  </div>
   <body>
     <div class="content">
       <slot />
