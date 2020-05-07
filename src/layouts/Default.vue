@@ -13,16 +13,6 @@
 </template>
 
 <script>
-import serviceWorkerJS from "~/service-worker.js";
-
-// Check that service workers are supported
-if ("serviceWorker" in navigator) {
-  // Use the window load event to keep the page load performant
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register(serviceWorkerJS);
-  });
-}
-
 var showHero;
 import Header from "~/layouts/Header.vue";
 import Hero from "~/layouts/Hero.vue";
