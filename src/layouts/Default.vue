@@ -3,7 +3,6 @@
   <Header></Header>
   <Hero v-show="showHero"></Hero>
   <body>
-    <noscript>Javascript is required for this webapp to function.</noscript>
     <div class="content">
       <slot />
     </div>
