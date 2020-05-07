@@ -26,8 +26,7 @@ export default {
   },
   props: {
     showHero: {
-      type: Boolean,
-      required: true
+      type: Boolean
     }
   }
 };
