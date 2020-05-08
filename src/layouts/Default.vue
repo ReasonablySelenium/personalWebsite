@@ -1,18 +1,16 @@
 <template>
-<client-only>
-  <div class="layout">
-    <Header></Header>
-    <div v-show="showHero">
-      <Hero></Hero>
-    </div>
-    <body>
-      <div class="content">
-        <slot />
-      </div>
-    </body>
-    <Footer></Footer>
+<div class="layout">
+  <Header></Header>
+  <div v-show="showHero">
+    <Hero></Hero>
   </div>
-</client-only>
+  <body>
+    <div class="content">
+      <slot />
+    </div>
+  </body>
+  <Footer></Footer>
+</div>
 </template>
 
 <script>
