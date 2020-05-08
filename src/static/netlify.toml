@@ -1,0 +1,11 @@
+[build]
+  publish = "dist"
+  command = "gridsome build"
+  
+[template.environment]
+  WORDPRESS_URL = "http://backend.go-rs.tk"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
