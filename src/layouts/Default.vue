@@ -15,9 +15,9 @@
 
 <script>
 var showHero;
-import Header from "~/layouts/Header.vue";
-import Hero from "~/layouts/Hero.vue";
-import Footer from "~/layouts/Footer.vue";
+import Header from "~/layouts/Header";
+import Hero from "~/layouts/Hero";
+import Footer from "~/layouts/Footer";
 export default {
   components: {
     Header,

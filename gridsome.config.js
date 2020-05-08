@@ -1,4 +1,8 @@
 module.exports = {
+  chainWebpack(config) {
+    config.mode('development')
+  },
+
   siteName: 'Reasonably Selenium\'s Blog',
   siteDescription: 'A blog made by Reasonably Selenium',
 
