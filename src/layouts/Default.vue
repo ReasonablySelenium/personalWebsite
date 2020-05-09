@@ -1,16 +1,18 @@
 <template>
-<div class="layout">
-  <Header></Header>
-  <div v-show="showHero">
-    <Hero></Hero>
-  </div>
-  <body>
-    <div class="content">
-      <slot />
+<Layout>
+  <div class="layout">
+    <Header></Header>
+    <div v-show="showHero">
+      <Hero></Hero>
     </div>
-  </body>
-  <Footer></Footer>
-</div>
+    <body>
+      <div class="content">
+        <slot />
+      </div>
+    </body>
+    <Footer></Footer>
+  </div>
+</Layout>
 </template>
 
 <script>
