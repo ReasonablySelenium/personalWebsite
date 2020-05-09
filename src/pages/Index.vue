@@ -28,7 +28,7 @@ query Home ($page: Int) {
         title
         path
         excerpt
-        featuredMediaImage (width: 900, quality: 80)
+        featuredMediaImage (width: 1000, quality: 85)
         featuredMedia {
           sourceUrl
           mediaDetails {

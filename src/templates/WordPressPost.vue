@@ -33,7 +33,7 @@ query WordPressPost ($id: ID!) {
   wordPressPost(id: $id) {
     title
     content
-    featuredMediaImage (width: 1200, quality: 80)
+    featuredMediaImage (width: 1200, quality: 85)
     featuredMedia {
       sourceUrl
       altText
