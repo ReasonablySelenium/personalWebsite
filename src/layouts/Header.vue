@@ -3,7 +3,7 @@
     <g-link to="/">Reasonably Selenium's Blog</g-link>
     <nav class="nav">
       <g-link class="nav__link" to="/">Home</g-link>
-      <g-link class="nav__link" to="/about/">About</g-link>
+      <g-link class="nav__link" to="/about-me/">About Me</g-link>
     </nav>
   </header>
 </template>
