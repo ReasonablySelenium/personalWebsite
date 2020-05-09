@@ -6,4 +6,7 @@ export default function (Vue, {head}) {
     rel: 'manifest',
     href: '/manifest.json'
   })
+  head.meta.add({
+    name: "theme-color"
+  })
 }
