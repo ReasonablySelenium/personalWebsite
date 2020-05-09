@@ -7,7 +7,7 @@
       :alt="post.featuredMedia.altText"
       :blur="40"
       :immediate="false"
-      :position="centre"
+      :position="center"
     />
     <div v-html="post.excerpt" />
     <g-link :to="post.path" class="read-more">
