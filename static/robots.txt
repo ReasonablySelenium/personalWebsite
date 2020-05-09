@@ -1,3 +1,2 @@
-x-robots-tag: index
 User-agent: *
 Allow: /
