@@ -1,6 +1,6 @@
 module.exports = {
   chainWebpack(config) {
-    config.mode('production')
+    config.mode('development')
   },
 
   siteName: 'Reasonably Selenium\'s Blog',

@@ -1,36 +1,26 @@
 <template>
-<Layout>
   <div class="layout">
-    <Header></Header>
-    <div v-show="showHero">
-      <Hero></Hero>
+    <aHeader></aHeader>
+    <Hero v-if="showHero"></Hero>
+    <div class="content">
+      <slot />
     </div>
-    <body>
-      <div class="content">
-        <slot />
-      </div>
-    </body>
-    <Footer></Footer>
+    <aFooter></aFooter>
   </div>
-</Layout>
 </template>
 
 <script>
 var showHero;
-import Header from "~/layouts/Header";
+import aHeader from "~/layouts/Header";
 import Hero from "~/layouts/Hero";
-import Footer from "~/layouts/Footer";
+import aFooter from "~/layouts/Footer";
 export default {
   components: {
-    Header,
+    aHeader,
     Hero,
-    Footer
+    aFooter
   },
-  props: {
-    showHero: {
-      type: Boolean
-    }
-  }
+  props: ["showHero"]
 };
 </script>
 
