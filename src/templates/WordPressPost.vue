@@ -5,7 +5,8 @@
       v-if="$page.wordPressPost.featuredMediaImage"
       :src="$page.wordPressPost.featuredMediaImage.src"
       :alt="$page.wordPressPost.featuredMedia.altText"
-      :width="$page.wordPressPost.featuredMediaImage.sizes.width"
+      :blur="40"
+      :immediate="false"
     />
     <div v-html="$page.wordPressPost.content" />
     <template v-if="$page.wordPressPost.categories.length">
@@ -32,7 +33,7 @@ query WordPressPost ($id: ID!) {
   wordPressPost(id: $id) {
     title
     content
-    featuredMediaImage
+    featuredMediaImage (width: 1200, quality: 80)
     featuredMedia {
       sourceUrl
       altText

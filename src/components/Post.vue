@@ -5,7 +5,9 @@
       v-if="post.featuredMediaImage"
       :src="post.featuredMediaImage.src"
       :alt="post.featuredMedia.altText"
-      :width="post.featuredMediaImage.sizes.width"
+      :blur="40"
+      :immediate="false"
+      :position="centre"
     />
     <div v-html="post.excerpt" />
     <g-link :to="post.path" class="read-more">
