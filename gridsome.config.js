@@ -14,10 +14,12 @@ module.exports = {
 
   plugins: [
     {
-      use: '@gridsome/source-wordpress',
+      use: 'gridsome-source-wordpress',
       options: {
         baseUrl: process.env.WORDPRESS_URL, // required
         typeName: 'WordPress', // GraphQL schema name (Optional)
+        downloadRemoteImagesFromPosts: true,
+        downloadRemoteFeaturedImages: true,
       }
     }
   ]

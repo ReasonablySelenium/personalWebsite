@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@gridsome/source-wordpress": "^0.5.3",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "gridsome-source-wordpress": "^0.4.13"
   }
 }

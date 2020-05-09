@@ -2,6 +2,7 @@
 .cache
 .DS_Store
 src/.temp
+wp-images
 node_modules
 dist
 .env

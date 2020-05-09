@@ -1,11 +1,11 @@
 <template>
   <div>
     <h1 v-html="post.title" />
-    <img
-      v-if="post.featuredMedia"
-      :src="post.featuredMedia.sourceUrl"
-      :width="post.featuredMedia.mediaDetails.width"
+    <g-image
+      v-if="post.featuredMediaImage"
+      :src="post.featuredMediaImage.src"
       :alt="post.featuredMedia.altText"
+      :width="post.featuredMediaImage.sizes.width"
     />
     <div v-html="post.excerpt" />
     <g-link :to="post.path" class="read-more">
