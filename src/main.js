@@ -6,8 +6,7 @@ export default function (Vue, {head}) {
     name: "theme-color"
   })
   head.link.push({
-  rel: 'preload',
+  rel: 'manifest',
   href: '/manifest.json',
-  as: 'manifest'
   })
 }
