@@ -1,11 +1,11 @@
 <template>
   <Layout :showHero="true">
     <ul class="post-list">
-      <li v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
+      <!-- <li v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
         <Post :post="node" />
-      </li>
+      </li>-->
     </ul>
-    <Pager :info="$page.allWordPressPost.pageInfo" />
+    <!-- <Pager :info="$page.allWordPressPost.pageInfo" /> -->
   </Layout>
 </template>
 
@@ -14,33 +14,6 @@ body .hero {
   margin: 0 !important;
 }
 </style>
-
-<page-query>
-query Home ($page: Int) {
-  allWordPressPost (page: $page, perPage: 10) @paginate {
-    pageInfo {
-      totalPages
-      currentPage
-    }
-    edges {
-      node {
-        id
-        title
-        path
-        excerpt
-        featuredMediaImage (width: 1200, quality: 85)
-        featuredMedia {
-          sourceUrl
-          mediaDetails {
-            width
-          }
-          altText
-        }
-      }
-    }
-  }
-}
-</page-query>
 
 <script>
 import { Pager } from "gridsome";
