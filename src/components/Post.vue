@@ -2,9 +2,8 @@
   <div>
     <h1 v-html="post.title" />
     <g-image
-      v-if="post.featuredMediaImage"
-      :src="post.featuredMediaImage.src"
-      :alt="post.featuredMedia.altText"
+      v-if="post.thumbnail"
+      :src="post.thumbnail"
       :blur="40"
       :immediate="false"
       :position="center"
