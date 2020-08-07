@@ -27,7 +27,7 @@ query Posts {
         title
         content
         excerpt
-        thumbnail
+        thumbnail (width: 1200, height: 600)
         path
       }
     }

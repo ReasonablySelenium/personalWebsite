@@ -2,7 +2,7 @@
   <Layout>
     <h1 v-html="$page.post.title" />
     <h2>Posted on {{ $page.post.date | dateParse('YYYY-MM-DD') | dateFormat('dddd - MMMM D, YYYY') }}</h2>
-    <g-image v-if="$page.post.thumbnail" :src="$page.post.thumbnail" :blur="40" :immediate="false" />
+    <g-image v-if="$page.post.thumbnail" :src="$page.post.thumbnail" />
     <div v-html="$page.post.content" />
   </Layout>
 </template>
@@ -12,7 +12,7 @@ query Post ($id: ID!) {
     post (id: $id) {
         title
         content
-        thumbnail
+        thumbnail (width: 1200, height: 600)
         date
     }
 }
