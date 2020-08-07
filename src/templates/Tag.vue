@@ -1,5 +1,15 @@
+<template>
+  <Layout>
+    <h1>Tag: {{ $page.tag.title }}</h1>
+    <ul class="post-list">
+      <li v-for="{ node } in $page.tag.belongsTo.edges" :key="node.id">
+        <Post :post="node" />
+      </li>
+    </ul>
+  </Layout>
+</template>
 <page-query>
-query Tag ($id: String!) {
+query Tag ($id: ID!) {
   tag (id: $id) {
     title
     belongsTo {
@@ -10,6 +20,8 @@ query Tag ($id: String!) {
             title
             path
             content
+            thumbnail (width: 1200, height: 600)
+            excerpt
           }
         }
       }
@@ -19,7 +31,12 @@ query Tag ($id: String!) {
 </page-query>
 
 <script>
+import Post from "~/components/Post.vue";
+
 export default {
+  components: {
+    Post
+  },
   metaInfo() {
     return {
       title: this.$route.params.id

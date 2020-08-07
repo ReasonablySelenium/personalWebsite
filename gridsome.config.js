@@ -13,24 +13,20 @@ module.exports = {
 
   plugins: [
     {
-      use: 'gridsome-transformer-netlify',
-      options: {
-        imagekey: 'image',
-        markdownKey: 'body'
-      }
-    },
-    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'posts/**/*.md',
         typeName: 'Post',
-      },
-      refs: {
-        tags: {
-          typeName: "Tag",
-          route: "/tag/:id",
-          create: true,
-        }
+        remark: {
+          plugins: []
+        },
+        refs: {
+          tags: {
+            typeName: "Tag",
+            route: "/tag/:id",
+            create: true,
+          },
+        },
       },
     },
     {

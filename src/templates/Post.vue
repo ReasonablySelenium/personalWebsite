@@ -4,6 +4,14 @@
     <h2>Posted on {{ $page.post.date | dateParse('YYYY-MM-DD') | dateFormat('dddd - MMMM D, YYYY') }}</h2>
     <g-image v-if="$page.post.thumbnail" :src="$page.post.thumbnail" />
     <div v-html="$page.post.content" />
+    <template v-if="$page.post.tags.length">
+      <h4>Tags</h4>
+      <ul class="list tags">
+        <li v-for="tag in $page.post.tags" :key="tag.id">
+          <g-link :to="tag.path">{{ tag.id }}</g-link>
+        </li>
+      </ul>
+    </template>
   </Layout>
 </template>
 
@@ -14,6 +22,10 @@ query Post ($id: ID!) {
         content
         thumbnail (width: 1200, height: 600)
         date
+        tags {
+          id
+          path
+        }
     }
 }
 </page-query>

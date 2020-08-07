@@ -33,10 +33,10 @@ query Posts {
           id
           path
         }
+        }
       }
     }
   }
-}
 </page-query>
 
 <script>
