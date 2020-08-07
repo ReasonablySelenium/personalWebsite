@@ -5,6 +5,14 @@ excerpt: Welcome to my new website everyone, and thank you for stopping by. It�
   an update about how things are going these days and what’s changed.
 date: 2020-05-11T04:00:00.000Z
 thumbnail: /uploads/screenshot-2020-05-09-at-8-35-20-pm.e1decf0.bfbca1ee2f737b18203658b22a411fa3.png
+tags:
+  - blog
+  - chromebook
+  - content
+  - future
+  - Publii
+  - website
+  - writing
 ---
 Welcome to my new website everyone, and thank you for stopping by. It’s been some time since I published a blog post, and now is a good time to make an update about how things are going these days and what’s changed. More importantly, it’s also a good time to answer a question that everyone must be wondering about right now, pertaining to the new look and feel of the blog. *Spoiler: Yes, something happened to the blog, and it is intentional.*
 

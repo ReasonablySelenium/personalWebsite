@@ -7,6 +7,12 @@ excerpt: Welcome back to my new blog everyone. I have decided to switch my main
   to be working on some cha...
 date: 2018-09-14T04:00:00.000Z
 thumbnail: /uploads/reasonably-selenium-ca-magic-blue.e1decf0.f939b818af868d07892cf49eacca3cfb.png
+tags:
+  - announcement
+  - content
+  - reconstruction
+  - updates
+  - website
 ---
 Welcome back to my new blog everyone. I have decided to switch my main blog from Tumblr to Blogger*, and completely gave the website a great face-lift. I really hope you enjoy refresh, and I’d like to thank Google for providing a great blogging platform. With that being said, I’m currently going to be working on some changes to I distribute my content to benefit you, the viewers. As of this time, I am no longer using Tumblr to write any blog posts, and it is therefore inactive. I do not know if I will plan to use the service again. Now without further ado, here’s some information about what’s to come for you all, and what’s changed.
 
