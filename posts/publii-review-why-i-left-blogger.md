@@ -5,6 +5,13 @@ excerpt: Over the past few years, I have been using Tumblr and Blogger to host
   to write and store my content in just a few clicks. Both services...
 date: 2019-12-16T05:00:00.000Z
 thumbnail: /uploads/screenshot-2020-05-09-at-8-35-20-pm.e1decf0.bfbca1ee2f737b18203658b22a411fa3.png
+tags:
+  - Blogger
+  - blogging
+  - content
+  - Publii
+  - Tumblr
+  - website
 ---
 Over the past few years, I have been using Tumblr and Blogger to host my regular blogging content. For a simple blog, both were good enough for me to write and store my content in just a few clicks. Both services were adequate enough for me to keep using them, not have to worry about coding up a website from scratch or using an approach that would not have the same guarentee of uptime.
 
