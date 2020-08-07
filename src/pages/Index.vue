@@ -29,6 +29,10 @@ query Posts {
         excerpt
         thumbnail (width: 1200, height: 600)
         path
+        tags {
+          id
+          path
+        }
       }
     }
   }

@@ -24,7 +24,14 @@ module.exports = {
       options: {
         path: 'posts/**/*.md',
         typeName: 'Post',
-      }
+      },
+      refs: {
+        tags: {
+          typeName: "Tag",
+          route: "/tag/:id",
+          create: true,
+        }
+      },
     },
     {
       use: `gridsome-plugin-netlify-cms`,
