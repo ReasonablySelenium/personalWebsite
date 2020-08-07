@@ -5,7 +5,8 @@ excerpt: Dear Carver;  I, Reasonably Selenium, publicly apologize for not being
   not respecting the services you have personally gave for Aclevo, and for not
   taking down the video in question that you previously wanted me to take down.
 date: 2017-11-29T05:00:00.000Z
-thumbnail: /uploads/pen-1329258-1280.e1decf0.0ae6e7fb347d4d2e10205b78a0c27b85.jpg
+thumbnail: 
+  src: /uploads/pen-1329258-1280.e1decf0.0ae6e7fb347d4d2e10205b78a0c27b85.jpg
 tags:
   - aclevo
   - apology

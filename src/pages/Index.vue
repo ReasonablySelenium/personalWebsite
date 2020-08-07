@@ -27,7 +27,11 @@ query Posts {
         title
         content
         excerpt
-        thumbnail (width: 1200, height: 600)
+        thumbnail {
+          src (width: 1200, height: 600)
+          alt
+          title
+        }
         path
         tags {
           id

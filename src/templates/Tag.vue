@@ -20,7 +20,11 @@ query Tag ($id: ID!) {
             title
             path
             content
-            thumbnail (width: 1200, height: 600)
+            thumbnail {
+              src (width: 1200, height: 600)
+              alt
+              title
+            }
             excerpt
           }
         }

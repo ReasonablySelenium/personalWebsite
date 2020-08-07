@@ -6,7 +6,8 @@ excerpt: Welcome back to my new blog everyone. I have decided to switch my main
   providing a great blogging platform. With that being said, I’m currently going
   to be working on some cha...
 date: 2018-09-14T04:00:00.000Z
-thumbnail: /uploads/reasonably-selenium-ca-magic-blue.e1decf0.f939b818af868d07892cf49eacca3cfb.png
+thumbnail: 
+  src: /uploads/reasonably-selenium-ca-magic-blue.e1decf0.f939b818af868d07892cf49eacca3cfb.png
 tags:
   - announcement
   - content

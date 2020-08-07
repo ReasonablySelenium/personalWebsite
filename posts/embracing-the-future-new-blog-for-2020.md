@@ -4,7 +4,10 @@ excerpt: Welcome to my new website everyone, and thank you for stopping by. Itâ€
   been some time since I published a blog post, and now is a good time to make
   an update about how things are going these days and whatâ€™s changed.
 date: 2020-05-11T04:00:00.000Z
-thumbnail: /uploads/screenshot-2020-05-09-at-8-35-20-pm.e1decf0.bfbca1ee2f737b18203658b22a411fa3.png
+thumbnail: 
+  src: /uploads/screenshot-2020-05-09-at-8-35-20-pm.e1decf0.bfbca1ee2f737b18203658b22a411fa3.png
+  alt: A screenshot of my website as of May 2020
+  title: A screenshot of my website as of May 2020
 tags:
   - blog
   - chromebook

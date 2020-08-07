@@ -6,7 +6,8 @@ excerpt: Dear Carver;  I screwed up again. I let Aclevo take down the apology
   saying you are a fascist and that you were a bad person. This is not true, and
   I kn...
 date: 2018-03-19T04:00:00.000Z
-thumbnail: /uploads/sign-1719892-1920.e1decf0.b2fa9b94e07d09e436822894080ead0b.png
+thumbnail: 
+  src: /uploads/sign-1719892-1920.e1decf0.b2fa9b94e07d09e436822894080ead0b.png
 tags:
   - aclevo
   - apology
