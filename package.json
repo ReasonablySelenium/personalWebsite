@@ -8,13 +8,11 @@
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/source-wordpress": "^0.5.3",
     "@gridsome/transformer-remark": "^0.6.1",
     "@vuejs-community/vue-filter-date-format": "^1.6.1",
     "@vuejs-community/vue-filter-date-parse": "^1.1.4",
     "gridsome": "^0.7.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
-    "gridsome-source-wordpress": "^0.4.13",
     "netlify-cms": "^2.10.55",
     "vue-filter-date-parse": "^1.1.3"
   }
