@@ -5,11 +5,7 @@ excerpt: Welcome back to my blog. I’ve been very busy ever since the restart o
   thought I would make it this far in my lifetime to have to have so many
   members part of this group I founded and run to this day.
 date: 2019-12-14T05:00:00.000Z
-<<<<<<< HEAD
-thumbnail: 
-=======
 thumbnail:
->>>>>>> b080445993ed0b27c7b46d4409e9deecd953a2a9
   src: /uploads/perry-grone-lb-lg-f-fl-a-dr-y-unsplash-scaled.e1decf0.b42dd3593b0e37e97234158e5f690a3b.jpg
 tags:
   - aclevo
