@@ -1,7 +1,9 @@
 <template>
   <div>
     <h1 v-html="post.title" />
-    <g-image v-if="post.thumbnail" width="1200" height="600" :src="post.thumbnail" />
+    <div class="post-hero">
+      <g-image v-if="post.thumbnail" :src="post.thumbnail.src" />
+    </div>
     <div v-html="post.excerpt" />
     <g-link :to="post.path" class="read-more">
       <i>Continue Reading...</i>

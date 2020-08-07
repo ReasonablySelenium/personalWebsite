@@ -28,7 +28,7 @@ query Posts {
         content
         excerpt
         thumbnail {
-          src (width: 1200, height: 600)
+          src
           alt
           title
         }

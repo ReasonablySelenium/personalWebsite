@@ -21,7 +21,7 @@ query Tag ($id: ID!) {
             path
             content
             thumbnail {
-              src (width: 1200, height: 600)
+              src
               alt
               title
             }

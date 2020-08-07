@@ -50,6 +50,19 @@ img {
   padding: 0 10%;
 }
 
+.post-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.post-hero img {
+  flex-shrink: 0;
+  min-width: 100%;
+  max-height: 600px;
+}
+
 .post-list {
   list-style: none;
   padding-left: 0;
