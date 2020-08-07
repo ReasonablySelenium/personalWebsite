@@ -5,7 +5,11 @@ excerpt: Welcome back to my blog. I’ve been very busy ever since the restart o
   thought I would make it this far in my lifetime to have to have so many
   members part of this group I founded and run to this day.
 date: 2019-12-14T05:00:00.000Z
+<<<<<<< HEAD
 thumbnail: 
+=======
+thumbnail:
+>>>>>>> b080445993ed0b27c7b46d4409e9deecd953a2a9
   src: /uploads/perry-grone-lb-lg-f-fl-a-dr-y-unsplash-scaled.e1decf0.b42dd3593b0e37e97234158e5f690a3b.jpg
 tags:
   - aclevo
@@ -13,6 +17,10 @@ tags:
   - organization
   - teamwork
   - together
+featured_image:
+  src: /uploads/perry-grone-lb-lg-f-fl-a-dr-y-unsplash-scaled.e1decf0.b42dd3593b0e37e97234158e5f690a3b.jpg
+  alt: An image of people holding hands
+  title: An image of people holding hands
 ---
 Welcome back to my blog. I’ve been very busy ever since the restart of Aclevo, and I’m here to tell you that it’s become very successful. I never thought I would make it this far in my lifetime to have to have so many members part of this group I founded and run to this day. I have to thank everyone on this big team, and everyone who has been in the past for bringing us to where we are today. Therefore, to give thanks, I will be talking about how I have made it this far, and what you can do to achieve the success I have made with Aclevo.
 
