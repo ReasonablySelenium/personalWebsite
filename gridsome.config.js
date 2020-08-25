@@ -9,6 +9,7 @@ module.exports = {
 
   templates: {
     Post: '/blog/:year/:month/:title',
+    sitePage: '/:title',
   },
 
   plugins: [
@@ -26,6 +27,16 @@ module.exports = {
             route: "/tag/:id",
             create: true,
           },
+        },
+      },
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'pages/**/*.md',
+        typeName: 'sitePage',
+        remark: {
+          plugins: []
         },
       },
     },

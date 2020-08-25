@@ -50,10 +50,10 @@ import Post from "~/components/Post.vue";
 export default {
   components: {
     Pager,
-    Post
+    Post,
   },
   metaInfo: {
-    title: "Home"
-  }
+    title: "Home",
+  },
 };
 </script>
