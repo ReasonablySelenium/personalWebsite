@@ -11,6 +11,9 @@ export default function (Vue, { head }) {
     rel: 'manifest',
     href: '/manifest.json',
   })
+  head.script.push({
+    src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  })
 
   Vue.use(VueFilterDateParse);
   Vue.use(VueFilterDateFormat);
